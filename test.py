@@ -1,6 +1,13 @@
 # for interview
 
 # PS: there is no type of number -- 'double',  in python. I take 'float' instead.
+
+
+''' Convert the format of dollars value into quote format.
+By market convention, the normal fraction used for Treasury security prices is 1/32.
+ A hyphen separates the full dollar portion of
+the price from the 32nds of a dollar, which are to the right of the hyphen.
+'''
 class ThirtySecondsFormatter:
     
     def __init__(self, amount=0):
